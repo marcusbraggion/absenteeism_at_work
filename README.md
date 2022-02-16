@@ -39,8 +39,10 @@ In this project we adopted a simple approach and some machine learning algorithm
 I used the Random Forest Regressor model to learn all the behavior of the data and after modeling the data I used it to make predictions, using 70% of the dataset to train it and then test it on 30% of the unseen data by the model to measure its performance. After all the steps mentioned and with the predictions made, I performed the evaluation of the performance of the model, bringing the result of the prediction for each employee in the dataset denominated as id number, through two metrics: best and worst scenario. And MAE and MAPE: two metrics that are easy to understand so that the HR team can use the model data in a more practical way in their daily lives. I also brought 4 graphs that demonstrate the result and error of the model for each employee and finally we can conclude result of the model with a predict of 48 hours of absence.
 
 
-# 8.0 Next Steps and Improvements
+# 8.0 Lesson Learned
 
-Improve error in 5%.
+Finding main factors that are associated with the employee's well-being and consequently with the absence rate through data analysis, we can extract insights that will serve as a guide for next actions within the organization, improving employee engagement and adherence with the business, making a healthier work environment, in addition to making HR decisions increasingly smart and data-driven.
 
-Add more data.
+# 9.0 Next steps
+
+Improve model perfomance in 3%.
