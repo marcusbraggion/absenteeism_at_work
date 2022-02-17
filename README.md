@@ -6,13 +6,60 @@
 
 # 1.0 Context
 
-The problem this time was the turnover. Mielsen (fictional), a company that operates in the field of research, information and data analysis, used its expertise internally to answer a big question: knowing why people are leaving the company.
+The HR department was pressured to retention and improve attrition in firm. The CPO perceives the importance of having a more quantitative approach when taking decisions, reason why a small team of data scientists was hired and allocated in HR People Analytics Squad with a clear objective in mind: to build a predictive model which will support direct HR initiatives. Desirably, the success of these activities will prove the value of the approach and convince the more skeptical within the company.
 
 # 2.0 Challenge 
 
-You are the Data Scientist alocated into HR People Analytics assigned to the task of discovering the cause of the problem, you will be responsible for identifying the key indicators, focusing your attention on absenteeism at work and building a basic model that can measure and predict the magnitude of the scenario they are facing. facing.
+You are the Data Scientist alocated into HR People Analytics assigned to the task of discovering the cause of the problem, you will be responsible for identifying the key indicators, focusing your attention on absenteeism at work and building a predictive model which will support HR initiatives.
 
 # 3.0 Business Assumptions
+
+1. Individual identification (ID)
+
+2. Reason for absence (ICD).
+
+Absences attested by the International Code of Diseases (ICD) stratified into 21 categories (I to XXI).
+
+And 7 categories without (CID) patient follow-up (22), medical consultation (23), blood donation (24), laboratory examination (25), unjustified absence (26), physiotherapy (27), dental consultation (28).
+
+3. Month of absence
+
+4. Day of the week (Monday (2), Tuesday (3), Wednesday (4), Thursday (5), Friday (6))
+
+5. Seasons (summer (1), autumn (2), winter (3), spring (4))
+
+6. Transportation expense
+
+7. Distance from Residence to Work (kilometers)
+
+8. Service time
+
+9. Age
+
+10. Work load Average/day
+
+11. Hit target
+
+12. Disciplinary failure (yes=1; no=0)
+
+13. Education (high school (1), graduate (2), postgraduate (3), master and doctor (4))
+
+14. Son (number of children)
+
+15. Social drinker (yes=1; no=0)
+
+16. Social smoker (yes=1; no=0)
+
+17. Pet (number of pet)
+
+18. Weight
+
+19. Height
+
+20. Body mass index
+
+21. Absenteeism time in hours (target)
+
 
 # 4.0 Solution Strategy
 The strategy adopted was the following:
